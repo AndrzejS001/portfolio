@@ -2,31 +2,11 @@
 
 body, html{
     margin: 0;
-    background-color: #221a1a;
 }
-
-
-/*Nav*/
-nav{
-    margin: 0;
-}
-nav ul {
-    margin: 20px 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 25px;
-    color: #fff;
-    text-align: center;
-    padding-left: 0;
-}
-nav ul li{
-    list-style-type: none;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    border: 2px solid #080808;
-    margin: 0 10px;
-    padding: 5px 0;
-    background-color: #000000
+/*main*/
+#main{
+    position: absolute;
+    height: 100vh;
+    background-image: url(../img/title-group-website.jpg);
+    width: 100%;
 }
