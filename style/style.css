@@ -29,6 +29,10 @@ h6{
 p{
     font-size: 18px;
 }
+a{
+    text-decoration: none;
+    color:#fff;
+}
 /*main*/
 #main{
     
@@ -39,13 +43,11 @@ p{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
 }
 #title-website{
-    -ms-flex-preferred-size: 40%;
+    
     flex-basis: 40%;
 }
 #title-website h1, h2{
@@ -59,7 +61,6 @@ p{
 
 /*nav*/
 nav{
-    -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
 }
 
@@ -67,20 +68,18 @@ nav ul{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+  
     justify-content: center;
     padding: 0;
     list-style-type: none;
     
 }
 nav ul li{
-    -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
     font-size: 25px;
     padding:  10px;
-    -ms-flex-item-align: center;
+    
     align-self: center;
 }
 nav ul li:hover{
@@ -142,12 +141,8 @@ nav ul li:hover{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     
     
@@ -184,10 +179,6 @@ nav ul li:hover{
     border-radius: 20px;
     
 }
-
-
-
-
 
 
 /*hobby*/
