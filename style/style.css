@@ -207,5 +207,11 @@ nav ul li:hover{
 
 /*contact*/
 #contact{
-    
+    background-image: radial-gradient(#0a0909,#eddfdf,#121111);
+    text-align: center;
+    padding: 50px 0;
+}
+#contact address, section{
+    padding: 40px 0;
+    font-size: 25px;
 }
