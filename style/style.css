@@ -15,6 +15,7 @@ h2{
 h3{
     font-size: 42px;
     text-align: center;
+    padding: 20px;
 }
 h4{
     font-size: 36px;
@@ -32,6 +33,9 @@ p{
 a{
     text-decoration: none;
     color:#fff;
+}
+*{
+    box-sizing: border-box;
 }
 /*main*/
 #main{
@@ -104,9 +108,8 @@ nav ul li:hover{
     background-image: url(../img/black.png);
     color: #fff;
     text-align: center;
-    padding: 30px 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    padding-bottom: 30px;
+    
 }
 #skills img{
     height: 100px;
@@ -151,8 +154,6 @@ nav ul li:hover{
     width: 40%;
     display:inline-block;
     padding: 10px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
     margin:  5px;
@@ -182,14 +183,13 @@ nav ul li:hover{
 
 
 /*hobby*/
+
 #hobby{
     background-image: url(../img/playstation-pattern.png);
     text-align: center;
 }
 #hobby article{
     padding: 80px 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 }
 #hobby article img{
     height: 300px;
@@ -201,9 +201,8 @@ nav ul li:hover{
 #contact{
     background-image: linear-gradient(#121111,#0a0909);
     text-align: center;
-    padding: 50px 0;
     color: #fff;
-    box-sizing: border-box;
+   
 }
 #contact address span{
     display: block;
@@ -226,5 +225,5 @@ footer{
 footer p{
     margin: 0;
     padding: 10px 0;
-    box-sizing: border-box;
+    
 }
